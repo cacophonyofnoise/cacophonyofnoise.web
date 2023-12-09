@@ -1,0 +1,970 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">		
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<title>A Cacophony of Noise</title>
+
+	<script type="text/javascript">
+		function toggleVisibility() {
+			if (document.getElementById('notescheck').checked == true) {
+				document.getElementById('checkboxbox').style.backgroundColor = 'hsl(272, 30%, 50%)';
+				for (let i = 0; i < document.getElementsByClassName('notes').length; i++) {
+					document.getElementsByClassName('notes')[i].style.display = 'block'; 
+				}
+			}
+			else {
+				document.getElementById('checkboxbox').style.backgroundColor = 'hsl(272, 50%, 10%)';
+				for (let i = 0; i < document.getElementsByClassName('notes').length; i++) {
+					document.getElementsByClassName('notes')[i].style.display = 'none'; 
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body>
+	<div class="top">
+		<ul id="navbar">
+			<li id="home"><a href="index.html"><b>A Cacophony of Noise</b></a></li>
+			<li id="licensing"><a href="legal.html">Licensing</a></li>
+			<li id="navnotes">
+				<div id="checkboxbox">
+					<input type="checkbox" id="notescheck" name="notescheck" onclick="toggleVisibility()">
+					<label for="notescheck">Show Notes</label>
+				</div>
+			</li>
+		</ul>
+		<p>
+			Heya, you've stumbled across my website. I'm Cacophony, 
+			and sometimes I write poetry, and sometimes I write other stuff. I was originally posting
+			my work on Instagram (@a_cacophony_of_noise), but that's a dogshit way to publish text-based
+			media, so I made this website to host it instead! Have a look around, you might
+			see something you like, you might not. Either way, thanks for stopping by.
+			<br>
+			A lot of the poetry I write is unfinished, so you might come across multiple drafts of the same poem,
+			or find ideas or phrases reused across poems as I look for the best place for them. I primarily write poetry
+			for myself, so it doesn't necessarily get the final polishes that you would see if a professional poetry magazine.
+			The idea behind sharing my work is simply to make the work I've already done availible to people who might enjoy reading it.
+		</p>
+
+	</div>
+
+	<div id="lowergrid">
+
+		<div id="left">
+			<p>Poem Index</p>
+			<a href="#love">Love</a>
+			<a href="#gaze out across the future">Gaze out across the future</a>
+			<a href="#the carpenter">The Carpenter</a>
+			<a href="when youve set fires">When you've set fires</a>
+			<a href="#why do we live">Why do we live?</a>
+			<a href="#we conquered nature all for naught">We conquered nature all for naught</a>
+			<a href="#not the bright-warm love">Not the bright-warm love</a>
+			<a href="#all alone on an empty stage">All alone on an empty stage</a>
+			<a href="#life is dark">Life is dark</a>
+			<a href="#like a river">Like a river</a>
+			<a href="#ill make a fire of my life">I'll make a fire of my life</a>
+			<a href="#painting on a canvas">Painting on a canvas</a>
+			<a href="#we all yearn for love">We all yearn for love</a>
+			<a href="#asteroid">Asteroid</a>
+			<a href="#i sit and gaze">I sit and gaze</a>
+			<a href="#sometimes i sit">Sometime I sit</a>
+			<a href="#moths to lamps">Moths to lamps</a>
+			<a href="#the sea and the spray">The sea and the spray</a>
+			<a href="#the world is cold and windy">The world is cold and windy</a>
+			<a href="#screams of anguish">Screams of anguish</a>
+			<a href="#a world filled with endless night">A world filled with endless night</a>
+			<a href="#when the seas they be stormy">When the seas they be stormy</a>
+			<a href="#two monsters">Two monsters</a>
+			<a href="#the world cast in shadow">The world cast in shadow</a>
+			<a href="#the bright-dark moon">The bright-dark moon</a>
+			<a href="#through a stained glass mirror">Through a stained glass mirror</a>
+			<a href="#the sands">The sands</a>
+			<a href="#ceaseless thoughts">Ceaseless thoughts</a>
+			<a href="#the mad king">The mad king</a>
+			<a href="#an emotion">An Emotion</a>
+			<a href="#wallowing in this falling rain">Wallowing in this falling rain</a>
+			<a href="#the tv smells of rot">The TV smells of rot</a>
+			<a href="#the facade grows thinner">The facade grows thinner</a>
+			<a href="#passenger on a captainless ship">Passenger on a captainless ship</a>
+			<a href="#wound like a spring">Wound like a spring</a>
+			<a href="#you turn on the tv">You turn on the TV</a>
+			<a href="#the maze of life">The maze of life</a>
+			<a href="#rubble and ruin">Rubble and ruin</a>
+			<a href="#twisting tendril flames">Twisting tendril flames</a>
+			<a href="#what causes this darkness">What causes this darkness?</a>
+		</div>
+
+		<div id="main">
+			<div id="content">
+
+				<section id="template" class="poem cacophony">
+					<h4><i>title</i></h4>
+					<h5>By Cacaphony, date</h5>
+					<p>
+						poem
+					</p>
+					<p class="notes">
+						notes
+					</p>
+				</section>
+
+				<section id="template" class="poem cacophony">
+					<h4><i>title</i></h4>
+					<h5>By Cacaphony, date</h5>
+					<p>
+						They'll tell you that humanity only knows how to take <br>
+						To take until there is nothing left <br>
+						And then keep taking <br>
+						Never once giving back <br>
+						<br>
+						This may be true <br>
+						But do not have the arrogance to believe <br>
+						That we came up with this idea ourselves <br>
+						But from where then did we learn it? <br>
+						<br>
+						We learned it form the Earth <br>
+						The seas and skies <br>
+						The rocks and the dirt <br>
+						That reclaim everything <br>
+						For the Earth takes all <br>
+						<br>
+						Whether we are buried or burned <br>
+						Or left to rot for our sins. <br>
+						From the poorest pauper <br>
+						To the richest tyrant <br>
+						The Earth takes us all <br>
+						<br>
+						The moss that claws into your driveway, <br>
+						The cobwebs in the corner of your shed. <br>
+						The leaves that gather on your windshield <br>
+						The mold that worms into your office walls <br>
+						<br>
+						Everything is consumed by the Earth <br>
+						Returning to ashes and to dust <br>
+						<br>
+						Our cities will crumble ...
+					</p>
+					<p class="notes">
+						Great example of a poem I started and then ran out of thoughts on.
+						Happens with most poems really, but it's much more apparent on this one. I really
+						like the idea behind it, this sort of nihilistic optimism about the environment and 
+						our place in it, but as a poem everything after the 4th stanza is a bit off. It would
+						probably need a pretty significant structural overhaul (not to mention actually being)
+						finished to bring it to a state where it would be a true self-contained expression. - C, ToP
+					</p>
+				</section>
+
+				<section id="love" class="poem cacophony">
+					<h4><i>Love</i></h4>
+					<h5>By Cacaphony, November 22nd, 2023</h5>
+					<p>
+						If you look up the entry for Love in the phonebook <br>
+						It'll tell you that love is found <br>
+						In the soft spaces between <br>
+						A couple who are embraced <br>
+						<br>
+						Now that is not strictly wrong of course <br>
+						Love is absolutely found there sometimes <br>
+						In the kiss of two boys standing in the rain <br>
+						Or the hug between a woman and her partner <br>
+						<br>
+						But many people look for love there <br>
+						And do not find it <br>
+						And other never even glance there <br>
+						And they find it anyway <br>
+						<br>
+						In the gentle silence of a library <br>
+						That embraces you like an old sweater <br>
+						Or the woman who stops <br>
+						To help the young man put in his first set of earrings <br>
+						<br>
+						It's found over dinners with your family <br>
+						Even if it's not the one you were born with <br>
+						Or late nights with friends <br>
+						Playing games and chatting
+					</p>
+					<p class="notes">
+						This a poem I'm surprised I haven't written earlier, because it's very
+						meaningful to me. It's far from finished, it doesn't have a real ending, I think the 
+						rhythm is non existent, and there's some wonky stuff here and there, especially the 4th
+						stanza, but it has more heart to it than a lot of other poems I've written - C, ToP
+					</p>
+				</section>
+
+				<section id="gaze out across the future" class="poem cacophony">
+					<h4><i>Untitled</i><br></h4>
+					<h5>By Cacophony, November 13th, 2023</h5>
+					<p>
+						I gaze out across the future <br>
+						And see a panoramic view <br>
+						Through a maze of mirrors <br>
+						And of kaleidoscopic lives <br>
+						<br>
+						A thousand pricks of light <br>
+						Scatter wild through my thoughts <br>
+						Each one a twisted winding path <br>
+						Each different and their own <br>
+						<br>
+						They call me soft and brightly <br>
+						Each beckoning me down <br>
+						I know I walk on ever forward <br>
+						And pass most all them by
+					</p>
+					<p class="notes">
+						I really like the idea behind this poem, but I think the execution
+						is pretty rough. At some point maybe I'll take another pass at it, 
+						but here it is as a draft - C, ToP
+					</p>
+				</section>
+
+				<section id="the carpenter" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, circa October, 2023</h5>
+					<p>
+						The Carpenter did not work with wood <br>
+						Most carpenters do, but not this one <br>
+						In fact, this Carpenter lived a life <br>
+						Devoid of any carpentry whatsoever. <br>
+						They never learned to whittle sticks <br>
+						Sitting on rough benches surrounded by trees. <br>
+						Or how to build a table, <br>
+						Surrounded by the sweet aroma of their father's shop. <br>
+						No, this Carpenter never tried to make anyhting from wood. <br>
+						<br>
+						Now this is not a bad thing, necessarily. <br>
+						Most people live their lives <br>
+						And never make anything from wood. <br>
+						There's a good chance you've never done it. <br>
+						Most people don't mind this, <br>
+						And you might not either. <br>
+						But The Carpenter is not most people, <br>
+						And they are not you. <br>
+						<br>
+						You see, they yearn for it. <br>
+						They yearn to feel the grain of the wood under the hands <br>
+						They yearn to smell the sawdust in the air <br>
+						And to see the dull gleam of polished wood <br>
+						Under their workshop lamp. <br>
+					</p>
+				</section>
+
+				<section id="the joy of just existing" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, October 9th, 2023</h5>
+					<p>
+						The joy of just existing <br>
+						The joy of who you are <br>
+						When nobody's looking <br>
+						Not even yourself <br>
+						<br>
+						It's like sun on your back <br>
+						When you nap in the grass <br>
+						Or the smell in the air <br>
+						Just after it rain <br>
+						<br>
+						It's pure, untouched <br>
+						Untouchable <br>
+						Even if sometimes <br>
+						It feels unfindable <br>
+						<br>
+						Find the people <br>
+						Who can help you find it <br>
+						And do what you can <br>
+						To help others find it <br>
+						<br>
+						The just of just existing <br>
+						The joy of who they are <br>
+					</p>
+				</section>
+
+				<section id="when youve set fires" class="poem longpoem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, September 12th, 2023</h5>
+					<p>
+						When you've set fire your whole life <br>
+						You forget how to build thing <br>
+						Maybe you never knew how in the first place <br>
+						And maybe you never will <br>
+						<br>
+						You never wanted to burn things <br>
+						It's just that the timbers go up so easily <br>
+						And for a time, you thought that the joy <br>
+						Of seeing something crumble downwards upon itself <br>
+						Was the same as seeing something rise <br>
+						from the earth, fresh and waiting <br>
+						<br>
+						You thought that the friends who watched the flames with you<br>
+						Sparks streaking towards a sky dyed orange <br>
+						Didn't long to create, to start something new <br>
+						To leave something, rather than to take <br>
+						<br>
+						But now you stand, and look back over a world <br>
+						Charred black and filled with ash <br>
+						And you look foward <br>
+						Towards a world that does not want to burn <br>
+						And realize that you do not want to burn it <br>
+						<br>
+						But you know that it is not so easy; <br>
+						The world is never still, never calm. <br>
+						And you know that we are not either. <br>
+						The world is either burning towards ash <br>
+						Or carving something new, rising in every direction. <br>
+						And each of us does the same, working to <br>
+						Shape a world we barely understand. <br>
+						<br>
+						You do not know if you can stop yourself from burning it <br>
+						You catch yourself, flicking your lighter. <br>
+						Looking for the driest tinder, the perfect book. <br>
+						You see those who have spent their whole lives building <br>
+						And know that each thing they built, <br>
+						You've burned another just like. <br>
+						<br>
+						You are not sure you can still build <br>
+						You are not sure that you can leave the <br>
+						Flickering firelight that drew you in <br>
+						So long ago, a choice you didn't realize you were making <br>
+						To follow that will-o'-the-wisp into the dark <br>
+						Perhaps this is the path you were always meant to walk <br>
+						The only path you can walk <br>
+						But you try anyway <br>
+						<br>
+						You try to emulate those who build. <br>
+						Their movements are smooth and efficient, <br>
+						While yours are clumsy and inaccurate. <br>
+						The things you build come out not quite right <br>
+						Angle that don't meet square <br>
+						Edges that don't quite touch <br>
+						Sometimes they look good enough <br>
+						And you are able to convicne yourself <br>
+						That you never burned as much as you did <br>
+						Or that the fires you set long ago burned out <br>
+						<br>
+						But then you catch a whiff of smoke in the wind <br>
+						The practiced motion of one who knows nothing but building <br>
+						In the corner of your eye <br>
+						And you know that those fires are not so far behind you <br>
+						And that they're oh so easy to start lighting anew. <br>
+						<br>
+						When you've set fires your whole life <br>
+						You forget how to build things <br>
+						Maybe you never knew how in the first place <br>
+						And maybe you never will.
+					</p>
+				</section>
+
+				<section id="why do we live" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, June 19th, 2023</h5>
+					<p>
+						Why do we live <br>
+						In spite of the constant drumming rain <br>
+						Of hurt and pain <br>
+						That fills the world? <br>
+						<br>
+						We live for the moments <br>
+						When the sun breaks through the clouds <br>
+						And the light hits the trees <br>
+						Just so. <br>
+						<br>
+						We live for the flowers <br>
+						And music and dancing <br>
+						And the love of a friend <br>
+						Who knows you unmasked.
+					</p>
+				</section>
+
+				<section id="we conquered nature all for naught" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, April 23rd, 2023</h5>
+					<p>
+						We conquered nature all for naught, <br>
+						And built our cities full of rot. <br>
+						We lied and said it's for the best, <br>
+						And cut down trees with birds in nests. <br>
+						We laced our poison through the seas <br>
+						So we could make our shipping free. <br>
+						We burned the forests down to ash <br>
+						For cheaper food to save us cash. <br>
+						We worked until the very end <br>
+						To leave a corpse we could not mend. <br>
+						We could not stop our boundless greed, <br>
+						And left wounds that will ever bleed. <br>
+						We tried to stop ourselves it's true, <br>
+						But we could never follow through. <br>
+					</p>
+				</section>
+
+				<section id="Not the bright-warn love" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, March 12th, 2023</h5>
+					<p>
+						Not the bright-warm love <br>
+						Of a sun-dappled field <br>
+						But the cold dark beauty <br>
+						Of a windswept moor
+					</p>
+				</section>
+
+				<section id="all alone on an empty stage" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, February 8th, 2023</h5>
+					<p>
+						All alone on an empty stage <br>
+						Facing the audience <br>
+						Nameless, faceless <br>
+						If you look just right <br>
+						Through the harsh stage light <br>
+						It seems they aren't there at all
+					</p>
+				</section>
+
+				<section id="life is dark" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, December 28th, 2022</h5>
+					<p>
+						Life is dark and the nights are cold <br>
+						And the moon and stars are dead and gone <br>
+						Blocked by the mist that hides the path <br>
+						Of which way's forward, which way's back <br>
+						<br>
+						In this darkness candles burn <br>
+						In cabin windows warm with love <br>
+						Forts of comfort and of hope <br>
+						Against the biting winter wind <br>
+						<br>
+						Like flowers in a barren field <br>
+						They reach a hand of love and warmth <br>
+						Building monuments tall and bright <br>
+						Works of art that cut the night <br>
+						<br>
+						You find them every now and then
+					</p>
+				</section>
+
+				<section id="like a river" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, circa December, 2022</h5>
+					<p>
+						Like a river rushing by you <br>
+						On and on it flows <br>
+						You never can appreciate it <br>
+						Before you know it's gone
+					</p>
+				</section>
+
+				<section id="ill make a fire of my life" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, November 4th, 2022</h5>
+					<p>
+						I'll make a fire of my life <br>
+						To see the darkness cut by light <br>
+						Once the laterns shined on high <br>
+						But now they've dwindled low and died
+					</p>
+				</section>
+
+				<section id="painting on a canvas" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, September 25th, 2022</h5>
+					<p>
+						Painting on a canvas <br>
+						With a knife carving cutting <br>
+						Brushstrokes leaving tatters <br>
+						Where the art of hope should lie <br>
+						<br>
+						To live is to create <br>
+						But life is long since lost <br>
+						Nothing left to give the world <br>
+						Just take and rend and burn
+					</p>
+				</section>
+
+				<section id="we all yearn for love" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, September 20th, 2022</h5>
+					<p>
+						We all yearn for love like sailors <br>
+						On the ocean yearn for land <br>
+						When rations run low and water runs dry. <br>
+						A yearn that comes from deep within, <br>
+						From your bones and from your heart. <br>
+						But against false hope we harden ourselves <br>
+						Because we sail on an endless ocean <br>
+						Built of our tears and sorrows. <br>
+						One that we know has long drowned <br>
+						the towns and the hope that we hunt <bt>
+					</p>
+				</section>
+
+				<section id="asteroid" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, August 30th, 2022</h5>
+					<p>
+						Do you ever feel like an asteroid? <br>
+						Floating in space without a place, <br>
+						Carried by your momentum <br>
+						From long, long, ago <br>
+						<br>
+						Chance brings you to earth; <br>
+						You fly through the atmosphere, <br>
+						Burning blinding bright <br>
+						And making day from night. <br>
+						<br>
+						But as you shine you burn. <br>
+						You begin to crack from the stress <br>
+						And finally break, spinning into a million pieces <br>
+						Each oof which burns to ash and dust <br>
+						<br>
+						And the night returns, the asteroid gone. <br>
+						The people who stopped tog aze <br>
+						Upon your momentary marvel, <br>
+						Turn back to their lives, <br>
+						The meteor already a fading memory
+					</p>
+				</section>
+
+				<section id="i sit and gaze" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, August 29th, 2022</h5>
+					<p>
+						I sit and gaze out over the sea <br>
+						Back resting roughly against a tree <br>
+						On my cheek the mist of ocean spray <br>
+						And above me branches twist and sway
+					</p>
+				</section>
+
+				<section id="Sometimes i sit" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, July 17th, 2022</h5>
+					<p>
+						Sometimes I sit and think I'm cursed <br>
+						To walk alone upon the earth <br>
+						The torn and jagged ink black hole <br>
+						Tucked in a corner of my soul <br>
+						I see it my eyes it's clear <br>
+						When I stare into the mirror <br>
+						But you can only see my smile <br>
+						That I can't hold for a short while <br>
+					</p>
+				</section>
+
+				<section id="moths to lamps" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, July 4th, 2022</h5>
+					<p>
+						Spinning, circling, tighter and tighter, <br>
+						They spin and weave like moths to lamps. <br>
+						Drawn near to it from far away. <br>
+						They can't resist the constant pull. <br>
+						They won't resist the constant pull. <br>
+						<br>
+						What would it be like, you think, <br>
+						To be pulled, to see your own lamp? <br>
+						Where they have focus and motivation, <br>
+						Flying like a planet orbiting a sun, <br>
+						You wander alone in the dark reaches of space <br>
+						A slow, meandering path, <br>
+						Going from nowhere to nowhere again. <br>
+						No even orbiting the illusion of a star <br>
+						Or following a lamp that isn't there. <br>
+						<br>
+						Why fly when there's nothing to visit? <br>
+						No light shining in the cool evening air. <br>
+						No sun to give life to the plants below. <br>
+						You sit and wait to see your light. <br>
+						You sit and wait to see you die. <br>
+					</p>
+				</section>
+
+				<section id="the sea and the spray" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, July 1st, 2022</h5>
+					<p>
+						You stand tall against the sea and the spray <br>
+						Looking out as the revolving lighthouse lamp <br>
+						Reveals the terrain of the e'er changing waves <br>
+						One flash, one instant, that's all you get <br>
+						And when the beam comes round again, it's changed. <br>
+						Never the same, never predictable <br>
+						Sometimes you see ships, heading towards the rocks <br>
+						And when the beam comes round again, they're gone <br>
+						You watch the rocks, cruel and jagged <br>
+						Reaching for the sky, as if to drag heaven to hell <br>
+						And when the beam comes round again, they're gone <br>
+						Sometimes you see calm and placid sea <br>
+						Water rippling gently in the summer breeze <br>
+						And when the beam comes round again, it's gone <br>
+						Replaced with waves that dwarf your tower <br>
+						Your refuge against an ever changing world <br>
+						In your meager shelter you cower, brace <br>
+						But when the beam comes round again, they're gone <br>
+
+					</p>
+				</section>
+
+				<section id="the world is cold and windy" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, May 31st, 2022</h5>
+					<p>
+						The world is cold and windy <br>
+						And you're hunting for a fire, <br>
+						Whose warmth you long ago forgot <br>
+						In another life, another place. <br>
+						Was it even you who felt that glow? <br>
+						The warmth, the safety <br>
+						The shelter from the storm? <br>
+						The memory is an echo of a call. <br>
+						Did you really sit beside the fire, <br>
+						Hear the crack and pop of burning wood? <br>
+						Does the fire even exist? <br>
+						Or is it just a desperate wish <br>
+						For something other than this cold.
+					</p>
+				</section>				
+
+				<section id="screams of anguish" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, May 3rd, 2022</h5>
+					<p>
+						Do you too hear the screams of anguish <br>
+						As the book of the world is ripped through its binding? <br>
+						The sound is everything, and nothing <br>
+						Incomprehensible, and all encompassing <br>
+						It cuts through you like a hacksaw <br>
+						And you feel your muscles tear and part <br>
+						Like the calm before a storm though, <br>
+						There's no pain, just silent horror <br>
+						<br>
+						The good doctor's eyes never leave yours <br>
+						As the bone cutter etches deeper <br>
+						The screams. Your screams. Our screams. <br>
+						Does he not hear them? <br>
+						Or does he not care? <br>
+						And can you decide which is worse? <br>
+						When you guardian angel turns against you, <br>
+						What is left that will let you endure?
+					</p>
+				</section>
+
+				<section id="a world filled with endless night" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, circa April, 2022</h5>
+					<p>
+						A world filled with endless night <br>
+						A world dark, devoid of light <br>
+					</p>
+				</section>
+
+				<section id="when the seas they be stormy" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, March 31st, 2022</h5>
+					<p>
+						WHEN THE SEAS THEY BE STORMY <br>
+						AND YE SHIP 'NEATH YOU SWAYS <br>
+						SET HEADING FOR YE HARBOR <br>
+						AND TIE OFF AT THE QUAY <br>
+						<br>
+						WHEN THE SEAS BE CLEAR AND FAIR <br>
+						CALL YE CREW THE SHIP 'T BOARD <br>
+						STAND READY TO MAN THE CANNONS <br>
+						AND SHARPEN ALL YE SWORDS <br>
+					</p>
+				</section>
+
+
+				<section id="two monsters" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, March 29th, 2022</h5>
+					<p>
+						THERE ARE TWO MONSTERS THAT HAUNT <br>
+						THE HALLS OF MY HEAD <br>
+						ONE IS SAD AND THE OTHER IS MAD
+					</p>
+				</section>
+
+				<section id="the world cast in shadown" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, March 27th, 2022</h5>
+					<p>
+						The world cast in shadow <br>
+						The laterns all burnt out <br>
+						The politicians march to war <br>
+						And hate filled men they shout <br>
+						<br>
+						The rich and the religious <br>
+						Stoke hate and fear and death <br>
+						They claim that they will spread the light <br>
+						And lie with the same breath <br>
+						<br>
+						Everywhere the lights burn out <br>
+						One by one by one <br>
+						You try to carry your laterns high <br>
+						But from black to darker grows the sky 
+					</p>
+				</section>
+
+				<section id="the bright-dark moon" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, March 22nd, 2022</h5>
+					<p>
+						Looking up at the bright-dark moon <br>
+						My inner peace that won't come soon <br>
+						Winding road up the endless mount <br>
+						Heat heavy and head spinning with doubt <br>
+						Narrow bridge o'er the bottomless pit <br>
+						Myself hollow and counterfeit <br>
+						Drowning in the black inky sea <br>
+						A fate reserved, deserved by me.
+					</p>
+				</section>
+
+				<section id="through a stained glass mirror" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, March 10th, 2022</h5>
+					<p>
+						The world through a stained glass mirror, <br>
+						Rippled like the water on a pond <br>
+						With a fistful of rocks thrown in. <br>
+						Distored and twisted like clay. <br>
+						<br>
+						Peer in, and your reflection stares back. <br>
+						Note quite you though, the features are off; <br>
+						The eyes look the same, but they aren't. <br>
+						The eyes of a stranger stare back. <br>
+						<br>
+						The stranger, you don't recognize him. <br>
+						But he is you, he has to be. <br>
+						He's your reflection after all. <br>
+						Or are you merely his reflection? <br>
+						<br>
+						Everyone else, they see themselves <br>
+						Gazing back from that damn window. <br>
+						A welcoming, familiar <br>
+						Face, the face that they should see there <br>
+						<br>
+						Are you looking in the wrong mirror? <br>
+						Are you the wrong man, gazing at <br>
+						A reflection who waits for someone <br>
+						else to come and watch them, love them? <br>
+					</p>
+				</section>
+
+				<section id="the sands" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, March 5th, 2022</h5>
+					<p>
+						The sands fall ever downward <br>
+						From a desert in the sky <br>
+						To a desert in the floor <br>
+						One swallowed by the other <br>
+						Irrevocable, unstoppable <br>
+						The sands fall ever downward <br>
+						<br>
+						The sands fall ever downward <br>
+						Some ponder the times when one desert was full <br>
+						Others the time it will be empty <br>
+						And the other full <br>
+						But it doesn't really matter <br>
+						The sands fall ever downward <br>
+						<br>
+						The sands fall ever downward <br>
+						Sometimes, sitting from afar <br>
+						Or perhaps sitting too close <br>
+						You forget to watch the falling sands, but they fall nonetheless <br>
+						And soon you will realize how much has since you last looked <br>
+						The sands fall ever downward
+					</p>
+				</section>
+
+				<section id="ceaseless thoughts" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, circa spring, 2022</h5>
+					<p>
+						Ceaseless thoughts inside of my head <br>
+						The ideas clear like silver glist'ning <br>
+						As I lay eyes closed in my bed <br>
+						Or sitting in class feigning list'ning <br>
+						<br>
+						In my head my thoughts are racing <br>
+						Sprinting hard adren'line surging <br>
+						Footfalls that pound heavy and pacing <br>
+						Not a mar'thon with crowds urging <br>
+						<br>
+						More like a race against time&mdash;or a bear
+					</p>
+				</section>				
+
+				<section id="the mad king" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, February 28th, 2022</h5>
+					<p>
+						The mad king high up in his tower <br>
+						Drunk on wine and the taste of power <br>
+						Playing politics like one of his childhood games <br>
+						Sending soldiers to die in the mud and the rain <br>
+					</p>
+				</section>
+
+				<section id="an emotion" class="poem cacophony">
+					<h4><i>An Emotion</i></h4>
+					<h5>By Cacaphony, February 26th, 2022</h5>
+					<p>
+						The urge to collapse <br>
+						To and die <br>
+						The urge to run <br>
+						Fight, energy high <br>
+						Balance or schism or both <br>
+						<br>
+						Stepping on a rusty nail <br>
+						High up in a mountain vale <br>
+						Abandoned cabin, peaceful lake <br>
+						The sweet sharp pain that cuts the silence <br>
+						<br>
+						Flutter like a bird in a cage <br>
+						Foward back left and right <br>
+						Everywhere the bars close tight <br>
+						Try and try and try again <br>
+						Desperate hope for freedom to fly again <br>
+					</p>
+				</section>
+
+				<section id="wallowing in this falling rain" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, Feburary 25th, 2022</h5>
+					<p>
+						Wallowing in this falling rain <br>
+						Not the sharp pound of nails <br>
+						Or the whimsical soar of birds wings <br>
+						The steady beat of falling rain <br>
+						The dull ache of a mostly gone pain <br>
+						A stagnant pool, not rotten or purtrid <br>
+						Just lifeless, unchanging <br>
+						An office abandoned and covered in dust <br>
+						A factory broken and flaking from rust
+					</p>
+				</section>
+			
+				<section id="the tv smells of rot" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, February 24th, 2022</h5>
+					<p>
+						The TV smells of rot <br>
+						The radio tastes of decay <br>
+						And gunfire echoes from the newspapers <br>
+						<br>
+						The dark blood of innocent sinners shot <br>
+						Madmen with countries held in sway <br>
+						The chaos of a perpetual war <br>
+						That everyone else has agreed to ignore
+					</p>
+				</section>
+
+				<section id="the facade grows thinner" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, February 20th, 2022</h5>
+					<p>
+						The facacde grows thinner <br>
+						And I vanish like a whisper
+					</p>
+				</section>
+				
+				<section id="passenger on a captainless ship" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, February 20th, 2022</h5>
+					<p>
+						A passenger on a captainless ship <br>
+						Floating the river alone and adrift <br>
+						I wander down passages rooms and halls <br>
+						I work all the stations as crew crowd and all <br>
+						I cook in the galley and dust in the cabins <br>
+						Cooking and cleaning for no one who's there <br>
+						I work without purpose <br>
+						Merely playing a role <br>
+						An actor on an empty stage <br>
+						Facing out an empty theatre <br>
+					</p>
+				</section>
+
+				<section id="wound like a spring" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, February 20th, 2022</h5>
+					<p>
+						Wound like the spring on a broken watch <br>
+						Restless without purpose
+					</p>
+				</section>
+				<section id="you turn on the tv" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, February 20th, 2022</h5>
+					<p>
+						You turn on the tv <br>
+						You laugh or you cry <br>
+						You have but two options <br>
+						For all will soon die <br>
+						Are the madman in a sane world? <br>
+						Or the sane man in a mad world?
+					</p>
+				</section>
+				<section id="the maze of life" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, February 19th, 2022</h5>
+					<p>
+						In the maze of life <br>
+						We've been given the map <br>
+						Two lefts and a right <br>
+						Or was it two rights and a left? <br>
+						You turn back <br>
+						And around again <br>
+						Which way is forward? <br>
+						And which way is back? <br>
+						You consult with the map <br>
+						But of your place you've lost track
+					</p>
+				</section>
+				<section id="rubble and ruin" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, February 17th, 2022</h5>
+					<p>
+						The rubble and ruin of urban decay <br>
+						crisscrossed by the countless alleyways
+					</p>
+				</section>
+				<section id="twisting tendril flames" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, February 18th, 2022</h5>
+					<p>
+						The twisting tendril flames climb high <br>
+						As the heat burns the words from the page <br>
+						The blaze unmaking all the books <br>
+						The fire reaching up for the sky <br>
+						And the great library goes up in flames <br>
+						Our knowledge it chars and it cooks <br>
+						The roof it comes down with a boom and a crash <br>
+						And all the remains is naught but ash
+					</p>
+				</section>
+				<section id="what causes this darkness" class="poem cacophony">
+					<h4><i>Untitled</i></h4>
+					<h5>By Cacaphony, February 15th, 2022</h5>
+					<p>
+					What causes this darkness <br>
+					&emsp; Is it me? <br>
+					&emsp; Is it the world? <br>
+					Through which I can't see <br>
+					<br>
+					If it's me am I broken? <br>
+					If it's the world? <br>
+					&emsp; Can it be fixed?
+					</p>
+				</section>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

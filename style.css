@@ -1,0 +1,201 @@
+/* atkinson-hyperlegible-regular - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Atkinson Hyperlegible';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./fonts/atkinson-hyperlegible-v11-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		 url('./fonts/atkinson-hyperlegible-v11-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+  
+/* atkinson-hyperlegible-italic - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Atkinson Hyperlegible';
+font-style: italic;
+font-weight: 400;
+src: url('./fonts/atkinson-hyperlegible-v11-latin-italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	 url('./fonts/atkinson-hyperlegible-v11-latin-italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* atkinson-hyperlegible-700 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Atkinson Hyperlegible';
+font-style: normal;
+font-weight: 700;
+src: url('./fonts/atkinson-hyperlegible-v11-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	 url('./fonts/atkinson-hyperlegible-v11-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+  
+/* atkinson-hyperlegible-700italic - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Atkinson Hyperlegible';
+font-style: italic;
+font-weight: 700;
+src: url('./fonts/atkinson-hyperlegible-v11-latin-700italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	 url('./fonts/atkinson-hyperlegible-v11-latin-700italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+@viewport {
+	width: device-width ;
+	zoom: 1.0 ;
+  } 
+
+html {
+	overflow-x: hidden;
+	margin-right: calc(-1 * (100vw - 100%));
+}
+
+body {
+	/* background-color: #18181a; */
+	background-color: hsl(272, 10%, 10%);
+	color: hsl(272, 30%, 90%);
+	font-family: 'Atkinson Hyperlegible', 'Times New Roman', Times, serif;
+	border-width: 2px;
+	border-color: red;
+	border-style: none;
+	max-width: 2000px;
+	margin: 0 auto;
+}
+
+ul#navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: hsl(272, 50%, 10%);
+}
+
+ul#navbar li {
+	float: right;
+}
+
+ul#navbar li#home {
+	float: left;
+}
+
+
+ul#navbar div {
+	display: block;
+	padding: 14px 32px;
+	margin: auto;
+	border: none;
+	border-color: aquamarine;
+	border-width: 2px;
+}
+
+ul#navbar div label {
+	height:100%;
+}
+
+ul#navbar div:hover {
+	background-color: hsl(272, 30%, 50%);
+}
+
+ul#navbar div input {
+	width: 1em;
+	height: 1em;
+}
+
+ul#navbar a {
+	display: block;
+	padding: 14px 32px;
+	text-decoration: none;
+	color: hsl(272, 30%, 90%);
+}
+
+ul#navbar a:hover {
+	background-color: hsl(272, 30%, 50%);
+}
+
+div {
+	border-width: 1px;
+	border-color: red;
+	border-style: none;
+}
+
+
+div.top p {
+	padding: 30px 30px;
+	max-width: 1000px;
+	margin: auto;
+}
+
+
+#lowergrid {
+	display: grid;
+	grid-template-columns: 200px minmax(400px, 1fr) ;
+	grid-template-rows: 1fr;
+	gap: 0px;
+	border-top:  2px solid hsl(272, 30%, 90%);
+}
+
+#left {
+	height: auto;
+	border-top: 2px solid hsl(272, 30%, 90%);
+	border-right: 2px solid hsl(272, 30%, 90%);
+	padding: 20px 20px;
+	max-width: 250;
+	display: inline;
+}
+
+@media screen and (max-width:600px) {
+	#left {
+		display: none;
+	}
+	div#content {
+		margin: 0 auto;
+		padding: 30px 30px;
+	}
+	#lowergrid {
+		display: block;
+	}
+}
+
+div#left a {
+	display: block;
+	padding-bottom: 5px;
+}
+
+div#content {
+	margin: 0 auto;
+	width: 400px;
+}
+
+section.poem {
+	padding: 0px 0px;
+	border-style: none;
+	border-width: 1px;
+	width: auto;
+	max-width: 400;
+	margin-bottom: 65px;
+	white-space: nowrap;
+}
+
+section.poem h4 {
+	text-align: left;
+	margin-bottom: 0px;
+	font-size: 1.5em;
+}
+section.poem h5 {
+	text-align: left;
+	margin: 0px;
+	margin-bottom: 30px;
+	font-size: 0.8em;
+
+}
+
+section.poem p.notes {
+	margin-top: 75px;
+	margin-bottom: 130px;
+	white-space: normal;
+	font-size: 1em;
+	color: hsl(272, 30%, 70%);
+	display: none;
+}
+
+section#template {
+	display: none;
+}
