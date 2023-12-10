@@ -157,7 +157,7 @@ div.top p {
 	}
 	section.poem {
 		white-space: normal !important;
-		border-style: solid !important;
+		border-style: none !important;
 		border-color: deeppink;
 		border-width: 2px;
 		max-width: 400px !important;
