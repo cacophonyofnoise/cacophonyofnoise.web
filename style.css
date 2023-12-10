@@ -57,6 +57,7 @@ body {
 	border-color: red;
 	border-style: none;
 	max-width: 100%;
+	overflow: hidden;
 	margin: 0 auto;
 }
 
@@ -81,7 +82,7 @@ ul#navbar div {
 	display: block;
 	padding: 14px 32px;
 	margin: auto;
-	border: solid;
+	border: none;
 	border-color: aquamarine;
 	border-width: 2px;
 }
@@ -141,14 +142,14 @@ div.top p {
 	display: inline;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:650px) {
 	#left {
 		display: none;
 	}
 	div#content {
 		margin: 0 auto;
-		padding: 30px 30px;
-		max-width: 100vw;
+		padding: 0px 0px;
+		max-width: 100%;
 		text-wrap: wrap;
 	}
 	#lowergrid {
@@ -156,10 +157,11 @@ div.top p {
 	}
 	section.poem {
 		white-space: normal !important;
-		border-style: none !important;
+		border-style: solid !important;
 		border-color: deeppink;
 		border-width: 2px;
-		max-width: 100vw;
+		max-width: 400px !important;
+		margin: 30px;
 	}
 }
 
@@ -170,7 +172,7 @@ div#left a {
 
 div#content {
 	margin: 0 auto;
-	width: 400px;
+	width: 450px;
 }
 
 section.poem {
